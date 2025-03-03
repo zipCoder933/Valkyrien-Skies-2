@@ -66,7 +66,11 @@ dependencies {
     }
 
     //modCompileOnly("curse.maven:rubidium-574856:4024781")
+    //I updated embeddium to the latest version and changed it from compileOnly to modImplementation
     modCompileOnly("maven.modrinth:embeddium:${embeddium_version}")
+//    modImplementation("maven.modrinth:embeddium:${embeddium_version}")
+    //modImplementation("curse.maven:embeddium-908741:5681725")
+
 
     // Twilight Forest
     modImplementation("teamtwilight:twilightforest:${twilightforest_version}:universal")
